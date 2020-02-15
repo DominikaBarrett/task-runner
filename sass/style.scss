@@ -15,14 +15,22 @@
     box-sizing: inherit;
   }
   
-  .container {
+  .header {
+    display: flex;
+    display: inline-block;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
   }
-  
+  .splash {
+    display: flex;
+  }
+  .navigation{
+    display: flex;
+    flex-direction:row ;
+  }
   @media (min-width: 576px) {
     .container {
       max-width: 540px;
